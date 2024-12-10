@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import Square from "./components/square/Square";
 
 function App() {
   return (
-    <div className="App">
-      <h1>HELLo</h1>
+    <div className="app">
+      {/* Simple Animation */}
+      <Square /> 
     </div>
   );
 }
